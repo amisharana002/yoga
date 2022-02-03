@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Everyday Fitness</title>
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .icon-grey {
+        color: black;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .accordion-button {
+        background-color: rgb(255, 255, 255);
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container">
+        <a class="navbar-brand">
+          <img
+            class="img-fluid"
+            src="logo.png"
+            style="width: 100%; max-height: 6rem"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsenavbar "
+          aria-controls="collapsenavbar"
+        >
+          <span class="navbar-toggler-icon icon-grey"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsenavbar">
+          <hr />
+          <ul class="navbar-nav mx-5 p-2 px-5">
+            <li class="nav-item px-4">
+              <a class="nav-link" href="home.html"> Home</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="#timing"> Timings</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="#about"> About Us</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="contact.html"> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <div class="container-sm">
+      <div class="row my-5">
+        <div class="col-md-6 p-5">
+          <p class="fs-3 text text-danger"><b>GET IN TOUCH</b></p>
+          <p class="fs-6 text">
+            If facing any problem contact us on the given details<br />
+            or drop a message with full details.<br />
+            We will answer your all queries.
+          </p>
+          <p class="text text-danger fs-4 text-md">
+            <i class="fas fa-home mr-3"></i>
+            <span class="text-dark fs-6"> G-23,Connaught place,Delhi</span>
+          </p>
+          <p class="text text-danger fs-4 text-md">
+            <i class="fas fa-envelope mr-3"></i
+            ><span class="text-dark fs-6"> everydayfitness02@gmail.com </span>
+          </p>
+          <p class="text text-danger fs-4 text-md">
+            <i class="fas fa-phone mr-3"></i>
+            <span class="text-dark fs-6"> 91-9879402235</span>
+          </p>
+        </div>
+        <div class="col-md-6 p-5">
+          <p class="fs-3 text-center text-danger"><b>Drop Message</b></p>
+          <form action="#" method="post">
+            <div class="form-floating m-2">
+              <input type="text" class="form-control" id="name" />
+              <label for="#name">Name</label>
+            </div>
+            <div class="form-floating m-2">
+              <input type="email" id="Email" class="form-control" />
+              <label for="#Email">Email</label>
+            </div>
+            <div class="form-floating m-2">
+              <input type="tel" id="Phone" class="form-control" />
+              <label for="#Phone">Phone</label>
+            </div>
+            <div class="form-floating m-2">
+              <textarea
+                type="text"
+                id="Message"
+                class="form-control"
+                rows="6"
+              ></textarea>
+              <label for="#Message">Message</label>
+            </div>
+            <div class="mx-5 my-3">
+              <input
+                type="submit"
+                class="form-control btn btn-danger"
+                value="Submit"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
